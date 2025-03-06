@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves, PhoneCall } from 'lucide-react';
@@ -135,7 +134,142 @@ const ServiceDetail = () => {
         }
       ]
     },
-    // Add additional service data as needed
+    'water-heater-installation': {
+      id: 'water-heater-installation',
+      title: 'Water Heater Installation',
+      description: 'Professional installation of traditional and tankless water heaters for reliable hot water in your home.',
+      icon: <Flame className="h-10 w-10" />,
+      imageUrl: 'https://images.unsplash.com/photo-1631646109206-4c986f548012?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+      fullDescription: [
+        'Our water heater installation service provides expert guidance in selecting the right water heater type and size for your home\'s specific needs and usage patterns.',
+        'We install all types of water heaters including traditional tank, tankless, heat pump, and solar models from leading manufacturers.',
+        'Our certified technicians handle all aspects of installation including removing old units, updating necessary plumbing connections, and ensuring proper venting and safety features.',
+        'Each installation includes thorough testing and a complete walkthrough of operation, maintenance requirements, and optimization settings to maximize efficiency and lifespan.'
+      ],
+      benefits: [
+        {
+          title: 'Energy Efficiency',
+          description: 'We help you select and install energy-efficient models that can reduce your utility bills while providing excellent hot water performance.'
+        },
+        {
+          title: 'Code Compliance',
+          description: 'All installations meet or exceed local building codes and manufacturer specifications for safety and performance.'
+        },
+        {
+          title: 'Extended Warranties',
+          description: 'Our professional installation ensures your manufacturer warranty remains valid, and we offer additional service warranties on our workmanship.'
+        },
+        {
+          title: 'Tankless Expertise',
+          description: 'We specialize in tankless water heater installation, providing endless hot water and up to 40% energy savings compared to traditional tank models.'
+        }
+      ],
+      faqs: [
+        {
+          question: 'How long does a water heater installation typically take?',
+          answer: 'A standard tank water heater installation typically takes 2-3 hours, while a new tankless installation may take 4-8 hours if gas line or venting modifications are required.'
+        },
+        {
+          question: 'What size water heater do I need for my home?',
+          answer: 'The right size depends on your household size and usage patterns. As a general guideline, a family of 1-2 people typically needs a 30-40 gallon tank, 2-3 people need 40-50 gallons, and 3-5 people need 50-80 gallons. For tankless units, we calculate based on flow rates and temperature rise requirements.'
+        },
+        {
+          question: 'Should I choose a tank or tankless water heater?',
+          answer: 'Tankless water heaters offer endless hot water, take up less space, last longer (20+ years vs. 10-15 for tanks), and are more energy-efficient. However, they have a higher upfront cost. Tank water heaters cost less initially and may be sufficient if your hot water needs are modest. We can provide a detailed comparison based on your specific situation.'
+        }
+      ]
+    },
+    'leak-detection-repair': {
+      id: 'leak-detection-repair',
+      title: 'Leak Detection & Repair',
+      description: 'Advanced techniques to find and fix hidden leaks before they cause extensive damage to your home.',
+      icon: <Droplet className="h-10 w-10" />,
+      imageUrl: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80',
+      fullDescription: [
+        'Our leak detection service utilizes state-of-the-art technology including acoustic leak detectors, thermal imaging, and moisture meters to locate hidden leaks without unnecessary property damage.',
+        'We can detect leaks in walls, ceilings, floors, slabs, and underground pipes that might otherwise go unnoticed until significant damage occurs.',
+        'Once identified, our skilled technicians can repair leaks using the least invasive methods possible, from pipe patching to targeted replacement of damaged sections.',
+        'We also address the root causes of leaks, such as high water pressure, pipe corrosion, or improper installation, to prevent future problems.'
+      ],
+      benefits: [
+        {
+          title: 'Non-Invasive Detection',
+          description: 'Our advanced equipment can locate most leaks without cutting into walls or digging up your yard unnecessarily.'
+        },
+        {
+          title: 'Prevent Water Damage',
+          description: 'Early leak detection prevents mold growth, structural damage, and high water bills from unseen leaks.'
+        },
+        {
+          title: 'Insurance Documentation',
+          description: 'We provide detailed reports and documentation that may be required for insurance claims related to water damage.'
+        },
+        {
+          title: 'Complete Repair Solutions',
+          description: 'From detection through repair, we handle the entire process with a focus on minimizing disruption to your home.'
+        }
+      ],
+      faqs: [
+        {
+          question: 'How can I tell if I have a hidden water leak?',
+          answer: 'Common signs include unexplained increases in water bills, the sound of running water when no fixtures are in use, damp or warm spots on floors or walls, mold or mildew growth, or a water meter that continues to run when all water sources are turned off.'
+        },
+        {
+          question: 'How accurate is your leak detection equipment?',
+          answer: 'Our advanced equipment can pinpoint leaks with accuracy to within inches of their source in most cases. This precision minimizes the need for exploratory demolition and reduces repair costs.'
+        },
+        {
+          question: 'Do you repair slab leaks?',
+          answer: 'Yes, we specialize in slab leak detection and repair. We offer multiple repair options including spot repairs, pipe rerouting, and complete repiping depending on the severity and location of the leak.'
+        }
+      ]
+    },
+    'bathroom-remodeling': {
+      id: 'bathroom-remodeling',
+      title: 'Bathroom Remodeling',
+      description: 'Transform your bathroom with modern fixtures, efficient layouts, and quality craftsmanship.',
+      icon: <ShowerHead className="h-10 w-10" />,
+      imageUrl: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+      fullDescription: [
+        'Our bathroom remodeling service covers everything from simple fixture updates to complete bathroom transformations, all with a focus on quality and functionality.',
+        'We provide comprehensive design services, helping you select the right fixtures, finishes, and layouts to maximize your space and achieve your desired aesthetic.',
+        'Our team handles all aspects of the remodel including plumbing, electrical, tiling, ventilation, lighting, and installation of fixtures and accessories.',
+        'We emphasize water-efficient fixtures, proper ventilation, and quality materials that stand up to the unique challenges of bathroom environments.'
+      ],
+      benefits: [
+        {
+          title: 'Design Expertise',
+          description: 'Our designers help you create a bathroom that balances beauty, functionality, and efficiency while staying within your budget.'
+        },
+        {
+          title: 'Quality Craftsmanship',
+          description: 'We use premium materials and proper installation techniques to ensure your new bathroom stands the test of time.'
+        },
+        {
+          title: 'Water Efficiency',
+          description: 'We install EPA WaterSense fixtures that reduce water usage without sacrificing performance, saving you money on utility bills.'
+        },
+        {
+          title: 'Project Management',
+          description: 'A dedicated project manager coordinates all aspects of your remodel, ensuring quality control and timely completion.'
+        }
+      ],
+      faqs: [
+        {
+          question: 'How long does a typical bathroom remodel take?',
+          answer: 'A powder room renovation might take just 1-2 weeks, while a complete master bathroom remodel typically takes 3-6 weeks depending on the scope of work, custom elements, and material availability.'
+        },
+        {
+          question: 'Can you make my small bathroom feel larger?',
+          answer: 'Absolutely. We use various design techniques to maximize space including wall-hung vanities, corner sinks, curbless showers, light colors, large mirrors, and proper lighting to create the illusion of more space without moving walls.'
+        },
+        {
+          question: 'Do I need permits for a bathroom remodel?',
+          answer: 'In most cases, yes. Permits are typically required for any work that involves changes to plumbing, electrical, or structural elements. As part of our service, we handle all permit applications and inspections to ensure your project is code-compliant.'
+        }
+      ]
+    }
+    // We now have 5 detailed service pages
   };
 
   const service = servicesData[serviceId || ''] || {
