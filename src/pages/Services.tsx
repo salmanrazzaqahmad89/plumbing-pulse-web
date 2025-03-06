@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves } from 'lucide-react';
@@ -121,22 +122,22 @@ const Services = () => {
               {
                 step: '01',
                 title: 'Contact & Consultation',
-                description: 'Reach out via phone or online form. We'll discuss your needs and schedule a convenient appointment time.'
+                description: "Reach out via phone or online form. We'll discuss your needs and schedule a convenient appointment time."
               },
               {
                 step: '02',
                 title: 'Diagnosis & Quote',
-                description: 'Our technician will thoroughly assess the issue and provide a clear, upfront quote before any work begins.'
+                description: "Our technician will thoroughly assess the issue and provide a clear, upfront quote before any work begins."
               },
               {
                 step: '03',
                 title: 'Professional Service',
-                description: 'Our expert technicians complete the work efficiently using quality parts and industry best practices.'
+                description: "Our expert technicians complete the work efficiently using quality parts and industry best practices."
               },
               {
                 step: '04',
                 title: 'Satisfaction Follow-up',
-                description: 'We ensure you're completely satisfied with our work and provide guidance for future maintenance.'
+                description: "We ensure you're completely satisfied with our work and provide guidance for future maintenance."
               }
             ].map((process, index) => (
               <div 
@@ -194,7 +195,7 @@ const Services = () => {
                     <path d="M8.79986 11.9C8.39986 11.9 8.09986 11.6 8.09986 11.2C8.09986 10.8 8.39986 10.5 8.79986 10.5H8.89986C9.29986 10.5 9.59986 10.8 9.59986 11.2C9.59986 11.6 9.29986 11.9 8.89986 11.9H8.79986ZM15.0999 11.9C14.6999 11.9 14.3999 11.6 14.3999 11.2C14.3999 10.8 14.6999 10.5 15.0999 10.5H15.1999C15.5999 10.5 15.8999 10.8 15.8999 11.2C15.8999 11.6 15.5999 11.9 15.1999 11.9H15.0999ZM12.0999 17.9C9.59986 17.9 7.49986 15.8 7.49986 13.3C7.49986 12.9 7.79986 12.6 8.19986 12.6C8.59986 12.6 8.89986 12.9 8.89986 13.3C8.89986 15 10.2999 16.4 11.9999 16.4C13.6999 16.4 15.0999 15 15.0999 13.3C15.0999 12.9 15.3999 12.6 15.7999 12.6C16.1999 12.6 16.4999 12.9 16.4999 13.3C16.4999 15.8 14.4999 17.9 11.9999 17.9H12.0999Z" fill="currentColor"/>
                   </svg>
                 </div>
-                <p className="text-muted-foreground mb-6 italic">"{testimonial.quote}"</p>
+                <p className="text-muted-foreground mb-6 italic">{testimonial.quote}</p>
                 <div>
                   <p className="font-semibold">{testimonial.author}</p>
                   <p className="text-sm text-muted-foreground">{testimonial.location}</p>
@@ -248,7 +249,7 @@ const Services = () => {
                     <summary className="flex justify-between items-center font-medium cursor-pointer list-none bg-white p-4">
                       <span>{faq.question}</span>
                       <span className="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                        <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                           <path d="M6 9l6 6 6-6"></path>
                         </svg>
                       </span>
