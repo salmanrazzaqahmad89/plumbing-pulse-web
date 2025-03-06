@@ -64,7 +64,7 @@ const ServiceDetail = () => {
         },
         {
           title: 'Complete Solutions',
-          description: 'We don't just clear the immediate clog – we identify and address the root cause to prevent future issues.'
+          description: "We don't just clear the immediate clog – we identify and address the root cause to prevent future issues."
         },
         {
           title: 'Safe for All Plumbing',
@@ -72,7 +72,7 @@ const ServiceDetail = () => {
         },
         {
           title: '24/7 Emergency Service',
-          description: 'Drain clogs don't wait for business hours, and neither do we. Emergency service available day or night.'
+          description: "Drain clogs don't wait for business hours, and neither do we. Emergency service available day or night."
         }
       ],
       faqs: [
@@ -82,7 +82,7 @@ const ServiceDetail = () => {
         },
         {
           question: 'Will you need to cut into my walls or floors to fix the clog?',
-          answer: 'In most cases, no. Our advanced techniques allow us to clear most clogs without invasive measures. In rare cases of severe pipe damage, some access may be required, but we'll discuss this thoroughly before proceeding.'
+          answer: "In most cases, no. Our advanced techniques allow us to clear most clogs without invasive measures. In rare cases of severe pipe damage, some access may be required, but we'll discuss this thoroughly before proceeding."
         },
         {
           question: 'How can I prevent future clogs in my drains?',
@@ -113,7 +113,7 @@ const ServiceDetail = () => {
         },
         {
           title: 'Quiet Operation',
-          description: 'If noise is an issue, we can recommend and install quieter models that won't disrupt your household.'
+          description: "If noise is an issue, we can recommend and install quieter models that won't disrupt your household."
         },
         {
           title: 'Eco-Friendly Options',
