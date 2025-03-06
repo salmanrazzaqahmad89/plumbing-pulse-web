@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves, Faucet, PhoneCall } from 'lucide-react';
+import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves, Tap, PhoneCall } from 'lucide-react';
 import HeroSection from '@/components/ui/HeroSection';
 import ServiceCard from '@/components/ui/ServiceCard';
 import CallToAction from '@/components/ui/CallToAction';
@@ -64,7 +64,7 @@ const Services = () => {
     {
       title: 'Faucet Installation and Repair',
       description: 'Expert faucet services including leak repair, cartridge replacement, and installation of new, water-efficient models for kitchen and bathroom.',
-      icon: <Faucet className="h-10 w-10" />,
+      icon: <Tap className="h-10 w-10" />,
       link: '/services/faucet-repair'
     },
     {

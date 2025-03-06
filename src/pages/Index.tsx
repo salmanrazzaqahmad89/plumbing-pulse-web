@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves, Faucet, PhoneCall } from 'lucide-react';
+import { Droplet, WrenchIcon, ShowerHead, Plug, RotateCcw, Flame, Thermometer, Waves, Tap, PhoneCall } from 'lucide-react';
 import HeroSection from '@/components/ui/HeroSection';
 import ServiceCard from '@/components/ui/ServiceCard';
 import BlogCard from '@/components/ui/BlogCard';
